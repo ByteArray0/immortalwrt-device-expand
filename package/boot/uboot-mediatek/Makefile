@@ -830,6 +830,8 @@ define U-Boot/mt7981_tplink_wma301-v2-1
   BL2_SOC:=mt7981
   BL2_DDRTYPE:=ddr3
   DEPENDS:=+trusted-firmware-a-mt7981-tplink-wma301-v2-ddr3
+endef
+
 define U-Boot/mt7981_teralink_tl3020-256mb
   NAME:=Teralink TL3020 256mb
   BUILD_SUBTARGET:=filogic
